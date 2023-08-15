@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #80529D;
+    color: #fff;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+}
+
+.container{
+    padding: 4% 6.7%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav p{
+    font-size: 40px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 45px;
+    transition: transform 0.5s;
+}
+
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    
+}
+
+nav ul li a button{
+    color: black;
+    width: 18vh;
+    height: 5vh;
+    font-size: 18px;
+    margin-left: 23%;
+    border-radius: 50px;
+    border: none;
+    
+}
+
+nav ul li:hover{
+    transform: translateY(-10px);
+}
+
+
+
+.head{
+    margin-top: 8%;
+    align-items:end;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/iq.jpg);
+    background-repeat: no-repeat;
+    background-size: 64% 100vh;
+    background-position: right;
+}
+
+
+
+.head img{
+    width: 28%;
+    margin-top: -1.5%;
+}
+
+.head p{
+    margin-top: 3%;
+    font-size: 90px;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.head input{
+    width: 50%;
+    height: 10%;
+    border-radius: 50px;
+    border: none;
+    padding-left: 40px;
+}
+
+.head button{
+    height: 8%;
+    width: 5%;
+    border-radius: 50%;
+    transform: translateX(-75px);
+    border: none;
+    background: orangered;
+}
+
+.head button i{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+#mid{
+    padding-top: 17%;
+}
+
+.para{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 40px;
+}
+
+.para div{
+    background-color: #61317F;
+    padding: 0 10%;
+    padding-top: 10%;
+    font-size: 36.9px;
+    padding-bottom: 30px;
+    font-weight: 375;
+}
+
+.para div .S{
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+.para div .s1{
+    padding-top: 0;
+    color: orangered;
+}
+
+
+#mid1{
+    padding: 20px 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col_1{
+    flex-basis: 50%;
+}
+
+.col_1 img{
+    width: 82%;
+    height: 85vh;
+}
+
+.col_2{
+    padding-top: 20px;
+    flex-basis: 50%;
+}
+
+.col_2 h1{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.col_2 p{
+    font-size: 20px;
+}
+
+#proc{
+    background: #fff;
+    margin-top: -5.2%;
+    padding: 0;
+    padding-left: 22%;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    height: 40vh;
+    margin-top: -15%;
+}
+
+.list div{
+    padding-top: 50%;
+    background: #F8B63C;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+
+
+.list div p{
+    padding: 0 40px;
+    font-size: 40px;
+    text-decoration: none;
+    color: #CA8E1E;
+    font-weight: bold;
+}
+
+.list div a{
+    padding: 0 40px;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.list div:hover{
+    transform: translateY(-20px);
+}
+
+#info{
+    background: #fff;
+    color: black;
+    padding: 0;
+}
+
+.layer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col1{
+    flex-basis: 55%;
+    text-align: left;
+}
+
+.col1 h1{
+    font-size: 57px;
+    padding-top: 30px;
+}
+
+.col1 .p1{
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+.col1 i{
+    padding-left: 50px;
+    font-size: 30px;
+    transform: translateY(5px);
+    transition: transform 0.5s;
+}
+
+.col1 i:hover{
+    transform: translateX(10px);
+}
+
+.col1 img{
+    padding-top: 15%;
+    width: 93%;
+}
+
+.col1 h2{
+    padding-top: 50px;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.col1 .p2{
+    color: rgb(138, 136, 136);
+    font-size: 20px;
+    padding-right: 30%;
+}
+
+.col2{
+    flex-basis: 45%;
+    text-align: right;
+}
+
+.i1{
+    width: 90%;
+}
+
+.col2 h2{
+    padding-left: 10%;
+    text-align: left;
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.col2 .p2{
+    padding-left: 10%;
+    text-align: left;
+    color: rgb(138, 136, 136);
+    font-size: 20px;
+}
+
+.col2 .i2{
+    padding-top: 20%;
+    width: 79%;
+}
+
+.col2 .h{
+    padding-left: 20%;
+    padding-bottom: 15px;
+}
+.col2 .p3{
+    padding-left: 20%;
+    text-align: left;
+    color: rgb(138, 136, 136);
+    font-size: 20px;
+}
+
+#steps{
+    background: #fff;
+    color: black;
+}
+
+#steps h1{
+    font-size: 60px;
+    margin-bottom: 10%;
+}
+
+div .btn{
+    width: 5%;
+    height: 9%;
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+    background: #F8B63C;
+    border: none;
+    transform: translateY(5px);
+}
+
+.step{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 80px;
+}
+
+.step h2{
+    padding: 15px 0;
+}
+
+.step p{
+    color: rgb(138, 136, 136);
+}
+
+#cont{
+    background: #fff;
+    color: black;
+    padding: 20px 0;
+}
+
+#cont h1{
+    font-size: 60px;
+}
+
+.lay{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 0;
+}
+
+.lay p{
+    padding-right: 20%;
+}
+
+#footer{
+    background: #F8F8F8;
+    color: black;
+    padding-top: 30px;
+}
+
+.foot{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 15px;
+}
+
+.foot p{
+    font-size: 18px;
+    color: rgb(138, 136, 136);
+    padding-bottom: 10px;
+}
+
+.foot .p1{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
